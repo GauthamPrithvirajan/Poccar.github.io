@@ -1,6 +1,6 @@
 @font-face {
   font-family: "EurostileCondensedRegular";
-  src: url('Eurostile Condensed Regular.ttf');
+  src: url('EurostileCondensed.ttf');
 }
 
 body { padding: 0; margin: 0; font-family:"EurostileCondensedRegular", arial; }
