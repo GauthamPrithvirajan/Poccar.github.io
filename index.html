@@ -16,7 +16,7 @@
     
       <canvas id="unity-canvas" width=1920 height=1080 tabindex="-1"></canvas>
       <div id="sidePanel">
-        <h1 style="width:100%;">Select a colour</h1>
+        <h4 style="width:100%;">Select body colour</h1>
       </div>
       <div id="tooltip" class="tooltipText"></div>
       <div id="unity-loading-bar">
@@ -40,7 +40,7 @@
   .then(response => response.json())
   .then(data => {
             const dataDisplay = document.getElementById("sidePanel");
-            for (let i = 1; i < data.length; i++) {
+            for (let i = 1; i < 25; i++) {
             // Create HTML elements to display the JSON data
                /* const nameElement = document.createElement("div");
                 nameElement.style.backgroundColor = data[i].hex;
