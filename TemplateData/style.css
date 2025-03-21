@@ -8,8 +8,8 @@ body { padding: 0; margin: 0; font-family:"EurostileCondensedRegular", arial; }
 
 #navbar{width:100%; height:60px; background:#002A4D;}
 
-#sidePanel{box-sizing:border-box; height:calc(100% - 60px); width: 24%; background:#ffffff; padding:16px; display:flex; flex-flow: row wrap; justify-content:center; align-items: flex-start;}
-#swatchPanel{box-sizing:border-box; height:auto; width: 100%; background:#ffffff; padding:6px; display:flex; flex-flow: row wrap; justify-content:space-around; gap:12px; overflow-y:scroll;}
+#sidePanel{box-sizing:border-box; height:calc(100% - 60px); width: 24%; background:#ffffff; padding:16px; display:flex; flex-flow: row wrap; justify-content:center; align-items: flex-start; align-content:flex-start; overflow-y:scroll;}
+#swatchPanel{box-sizing:border-box; height:auto; width: 100%; background:#ffffff; padding:6px; display:flex; flex-flow: row wrap; justify-content:flex-start; gap:12px; overflow-y:scroll;}
 
 #unity-container.unity-desktop {}
 #unity-container.unity-mobile { position: fixed; width: 100%; height: 100% }
