@@ -17,6 +17,7 @@
       <canvas id="unity-canvas" width=1920 height=1080 tabindex="-1"></canvas>
       <div id="sidePanel">
         <h4 style="width:100%;">Select body colour</h1>
+        <div id="swatchPanel"></div>
       </div>
       <div id="tooltip" class="tooltipText"></div>
       <div id="unity-loading-bar">
@@ -39,7 +40,7 @@
      fetch('./colors.json')
   .then(response => response.json())
   .then(data => {
-            const dataDisplay = document.getElementById("sidePanel");
+            const dataDisplay = document.getElementById("swatchPanel");
             for (let i = 1; i < 25; i++) {
             // Create HTML elements to display the JSON data
                /* const nameElement = document.createElement("div");
