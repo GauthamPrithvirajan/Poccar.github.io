@@ -9,7 +9,11 @@ body { padding: 0; margin: 0; font-family:"EurostileCondensedRegular", arial; }
 #navbar{width:100%; height:60px; background:#002A4D;}
 
 #sidePanel{box-sizing:border-box; height:calc(100% - 60px); width: 24%; background:#ffffff; display:flex; flex-flow: row wrap; justify-content:center; align-items: flex-start; align-content:flex-start; overflow-y:scroll; gap:0px 12px;}
+<<<<<<< HEAD
 .swatchPanel{box-sizing:border-box; height:auto; min-width:280px; width: fit-content; background:#ffffff; padding:24px 24px; display:flex; flex-flow: row wrap; justify-content:space-evenly; gap:16px;}
+=======
+#swatchPanel{box-sizing:border-box; height:auto; min-width:280px; width: fit-content; background:#ffffff; padding:16px; display:flex; flex-flow: row wrap; justify-content:flex-start; gap:12px;}
+>>>>>>> 35dd0857e02ea609ab77384dd52f5e7509d6ba15
 
 #unity-container.unity-desktop {}
 #unity-container.unity-mobile { position: fixed; width: 100%; height: 100% }
@@ -38,10 +42,13 @@ body { padding: 0; margin: 0; font-family:"EurostileCondensedRegular", arial; }
 #unity-logo-title-footer { float:left; width: 102px; height: 38px; background: url('unity-logo-title-footer.png') no-repeat center }
 #unity-build-title { float: right; margin-right: 10px; line-height: 38px; font-family: arial; font-size: 18px }
 #unity-fullscreen-button { position:fixed; z-index:4; cursor:pointer; left:24px; bottom:24px; width: 38px; height: 38px; background: url('fullscreen-button.png') no-repeat center }
+<<<<<<< HEAD
 #play-button { position:fixed; z-index:4; cursor:pointer; left:72px; bottom:24px; width: 38px; height: 38px; background: url('button-play.png') no-repeat center }
 
 #field-search { position:fixed; z-index:4; cursor:pointer; right:calc(24% + 24px); top:72px; width: 232px; height: 38px; background: url('field-search-carmodel.png') no-repeat center }
 
+=======
+>>>>>>> 35dd0857e02ea609ab77384dd52f5e7509d6ba15
 #unity-warning { position: absolute; left: 50%; top: 5%; transform: translate(-50%); background: white; padding: 10px; display: none }
 
 /* Tooltip text */
