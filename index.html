@@ -193,8 +193,10 @@
 	  function toggleRotation(){
 		MyGameInstance.SendMessage('Models','toggleRotate');
 		var img = document.getElementById('play-button').src;
-		
-		if (img == 'TemplateData/button-play.png') {
+
+		alert(img);
+		  
+		if (img == "TemplateData/button-play.png") {
 			document.getElementById('play-button').src = 'TemplateData/button-pause.png';
 		} else {
 			document.getElementById('play-button').src = 'TemplateData/button-play.png';
