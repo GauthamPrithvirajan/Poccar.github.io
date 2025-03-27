@@ -34,7 +34,6 @@
       <div id="tooltip" class="tooltipText"></div>
       <div id="unity-fullscreen-button"></div>
 	  <div id="play-button" onClick="toggleRotation()"></div>
-	  <div id="pause-button"></div>
 	  <div id="field-search"></div>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
@@ -193,6 +192,13 @@
 	  
 	  function toggleRotation(){
 		MyGameInstance.SendMessage('Models','toggleRotate');
+		var img = document.getElementById('play-button').src;
+		
+		if (img) {
+			document.getElementById('play-button').src = 'TemplateData/button-pause.png';
+		} else if (!img) {
+			document.getElementById('play-button').src = 'TemplateData/button-play.png';
+		}
 	  }
 
       function showTooltip(str){
