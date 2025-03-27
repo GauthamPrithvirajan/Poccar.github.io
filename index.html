@@ -33,7 +33,7 @@
       </div>
       <div id="tooltip" class="tooltipText"></div>
       <div id="unity-fullscreen-button"></div>
-	  <div id="play-button"></div>
+	  <div id="play-button" onClick="toggleRotation()"></div>
 	  <div id="pause-button"></div>
 	  <div id="field-search"></div>
       <div id="unity-loading-bar">
@@ -190,6 +190,10 @@
           const str= new Array(r+"+"+g+"+"+b+"");
           MyGameInstance.SendMessage('JavascriptObject','testJson',str.toString());
       }
+	  
+	  function toggleRotation(){
+		MyGameInstance.SendMessage('Models','toggleRotate');
+	  }
 
       function showTooltip(str){
         //console.log(str);
